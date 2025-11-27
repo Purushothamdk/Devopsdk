@@ -1,0 +1,4 @@
+XYZ.exc:file2.o
+	gcc -o XYZ.exc file2.o
+file2.o:file2.c
+	gcc -c file2.c
